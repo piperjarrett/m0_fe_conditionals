@@ -3,9 +3,9 @@
 // Spend some time changing the variables and running the file to see how the story changes.
 
 
-var doorChoice = 1;
+var doorChoice = 2;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -35,9 +35,18 @@ if (bearChoice === 1) {
 
 // Questions
 // 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+// Between lines 12 and 16, a if statement is being made that if the entered number is strictly equal to one, the bear will be wearing a hat. If it is any other number, the bear will be wearing a scarf.
 // 2. What variable has a new value assigned to it after the first if statement executes?
+// bearClothing
 // 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-// 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+// scarf
+// 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.2
+// In these lines, the if statement is saying that if the bearChoice is strictly equal to 1, the bear will show you a passage,
+// if the bearChoice number is strictly equal to 2 then the bear will cry, and if the bearChoice number is strictly equal to 3, you go into a room full of snakes
+// if the bearChoice number is any number OTHER than 1,2, or 3, the bear becomes your bestfriend.
 // 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+// You run as fast as you can into the next room. It's full of snakes.
 // 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+// You tell the bear the hat is too small and it starts to cry.
 // 7. What is your favorite ending?
+// doorChoice = 2, bearChoice = 4, so the bear is wearing a scarf and I stay with the bear and it beccomes' my bestfriend. 
