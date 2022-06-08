@@ -104,4 +104,4 @@ console.log(lovesToPlay || lovesDogPark);
 // Determine if the dog loves to play and is a puppy
 console.log(lovesToPlay && age < 1);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER: False. This is because the dof loves to play but isnt a puppy because he is over 1 or the same age as 1 hence not making him a puppy. 
+// ANSWER: False. This is because the dof loves to play but isnt a puppy because he is over 1 or the same age as 1 hence not making him a puppy. Ad
